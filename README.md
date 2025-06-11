@@ -1,4 +1,5 @@
 This repository contains lab assignments and implementations for the Computer Graphics course.<br>
+IOE - Purwanchal Campus
 ## ⚠️ Notes for Working with Turbo C++
 If you're using Turbo C++ (especially Turbo C++ 3.0 in DOSBox), please keep the following points in mind when running graphics programs like the Bresenham Line Algorithm and Midpoint Ellipse Algorithm:
 
@@ -37,7 +38,7 @@ If you're using Turbo C++ (especially Turbo C++ 3.0 in DOSBox), please keep the 
 - Declare all variables before use.
 - Consistently use correct data types like `int`, `long`, and `float`.
 
-### 📌 9. Compatible Math Operations
+###  9. Compatible Math Operations
 - Avoid direct floating point operations in integer contexts, for example:  
   `(x + 0.5)*(x + 0.5)`  
   Instead, store in a `float` variable first to avoid truncation.
